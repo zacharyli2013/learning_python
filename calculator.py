@@ -73,37 +73,26 @@ while True:
     num2 = float(input("Input your second number: "))
     if operator == "add" or operator == "+":
         pr_add(num1, num2)
-        pr_exit()
     elif operator == "subtract" or operator == "-":
         pr_subtract(num1, num2)
-        pr_exit()
     elif operator == "multiply" or operator == "*":
         pr_multiply(num1, num2)
-        pr_exit()
     elif operator == "divide" or operator == "/":
         pr_divide(num1, num2)
-        pr_exit()
-    elif operator == "mod" or "%":
+    elif operator == "mod" or operator == "%":
         pr_mod(num1, num2)
-        pr_exit()
     elif operator == "cos":
         pr_cos(num1)
-        pr_exit()
     elif operator == "sin":
         pr_sin(num1)
-        pr_exit()
     elif operator == "sqrt":
         pr_sqrt(num1)
-        pr_exit()
     elif operator == "tan":
         pr_tan(num1)
-        pr_exit()
     elif operator == "acos":
         pr_acos(num1)
-        pr_exit()
     elif operator == "asin":
         pr_asin(num)
-        pr_exit()
     else:
         pr_reset("not found")
-        pr_exit()
+    pr_exit()
