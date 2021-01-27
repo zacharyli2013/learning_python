@@ -1,2 +1,2 @@
-# learning_python
-Python is awesome!
+# learning python
+Python is fun!
